@@ -1,0 +1,10 @@
+attchUpload:
+  files:
+    origImg: (None,'1')
+    picType: (None,'1')
+    userfile1: ('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')
+  mime_type: multipart/form-data
+excel: test_suqq.xlsx
+headers: ~
+sheet:
+- 客服分类管理

@@ -1,0 +1,20 @@
+excel : test_suqq.xlsx
+sheet :
+  - 客服分类管理
+Allure :
+  feature : 客服
+  story : 客服分类新增有效类
+  title : 客服分类新增有效类
+  testCaseLink : www.baidu.com
+  issue : www.jiradress.com
+  description : 输入正确的各项内容提交，提示成功
+  severity : normal
+# 如果本功能需要其他类型headers,则需要维护以下内容,默认为None
+headers:
+# 如果要上传附件则需要维护以下内容，默认各项目为空
+attchUpload :
+  mime_type : multipart/form-data
+  files : 
+    userfile1 : ('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')
+    picType : (None,'1')
+    origImg : (None,'1')
