@@ -1,0 +1,7 @@
+2021-02-27 19:15:25,303-startup-INFO-====================生成本次用例运行的时间戳====================
+2021-02-27 19:15:25,363-startup-INFO-====================时间戳为20210227_191525====================
+2021-02-27 19:15:25,490-startup-INFO-====================执行测试用例自动生成操作====================
+2021-02-27 19:15:25,504-case_Generate-INFO-====================yaml文件['test_kfcatAdd', 'test_kfGroupAdd']对应的的测试用例文件c:\Users\Luke\Desktop\PythonLearn\StayAtHome\apiDemo\testcases\test_kfcatAdd.py已存在====================
+2021-02-27 19:15:25,519-case_Generate-INFO-====================执行测试用例文件c:\Users\Luke\Desktop\PythonLearn\StayAtHome\apiDemo\testcases\test_kfGroupAdd.py创建====================
+2021-02-27 19:15:25,522-case_Generate-INFO-====================将用例模板数据复制到c:\Users\Luke\Desktop\PythonLearn\StayAtHome\apiDemo\testcases\test_kfGroupAdd.py====================
+2021-02-27 19:15:25,572-startup-INFO-==================================================

@@ -1,0 +1,34 @@
+[32mINFO    [0m send_request:apiSend.py:22 ====================obphost值为:http://obp.888ly.cn====================
+[32mINFO    [0m send_request:apiSend.py:24 ====================omphost值为:http://omp.888ly.cn====================
+[32mINFO    [0m send_request:apiSend.py:26 ====================osphost值为:http://osp.888ly.cn====================
+[32mINFO    [0m handerYml:oYaml.py:30 ====================根据headers读取basic.yaml数据====================
+[32mINFO    [0m send_request:apiSend.py:29 ====================headers默认值为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+[32mINFO    [0m handerYml:oYaml.py:30 ====================根据headers读取test_kfcatAdd.yaml数据====================
+[32mINFO    [0m send_request:apiSend.py:32 ====================测试用例自己需要的headers值为:None====================
+[32mINFO    [0m handerYml:oYaml.py:27 ====================根据attchUpload:mime_type读取test_kfcatAdd.yaml数据====================
+[32mINFO    [0m send_request:apiSend.py:35 ====================上传附件的请求类型为:multipart/form-data====================
+[32mINFO    [0m handerYml:oYaml.py:27 ====================根据attchUpload:files读取test_kfcatAdd.yaml数据====================
+[32mINFO    [0m send_request:apiSend.py:37 ====================上传附件的文件内容为:{'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}====================
+[32mINFO    [0m send_request:apiSend.py:40 ====================所属系统为:omp====================
+[32mINFO    [0m send_request:apiSend.py:42 ====================请求方法为:post====================
+[32mINFO    [0m send_request:apiSend.py:44 ====================请求subUrl为:/DataService/Login.asmx/SignIn====================
+[32mINFO    [0m send_request:apiSend.py:46 ====================请求data为:{"account":"suqiangqiang","password":"abc123","checkCode":"8765","isAutoLogin":false,"isAccount":false,"validateCode":""}====================
+[32mINFO    [0m send_request:apiSend.py:48 ====================请求是否需要cookies:N====================
+[32mINFO    [0m send_request:apiSend.py:50 ====================请求是否需要保存cookies:N====================
+[32mINFO    [0m send_request:apiSend.py:52 ====================请求需要执行的查询语句为:None====================
+[32mINFO    [0m send_request:apiSend.py:54 ====================请求需要执行的更新语句为:None====================
+[32mINFO    [0m send_request:apiSend.py:56 ====================请求需要执行的删除语句为:None====================
+[32mINFO    [0m send_request:apiSend.py:59 ====================传递给caseYmldata的值为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+[32mINFO    [0m send_request:apiSend.py:60 ====================执行获取基本信息操作完成====================
+[32mINFO    [0m send_request:apiSend.py:84 ====================执行guid参数替换操作====================
+[32mINFO    [0m send_request:apiSend.py:95 ====================执行http://omp.888ly.cn/DataService/Login.asmx/SignIn的post请求====================
+[32mINFO    [0m send_request:apiSend.py:96 ====================请求的s为<requests.sessions.Session object at 0x0000000004BFA5F8>====================
+[32mINFO    [0m send_request:apiSend.py:97 ====================data数据为:{"account":"suqiangqiang","password":"abc123","checkCode":"8765","isAutoLogin":false,"isAccount":false,"validateCode":""}====================
+[32mINFO    [0m send_request:apiSend.py:98 ====================caseYmldata数据为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+[32mINFO    [0m send_request:apiSend.py:105 ====================headers数据为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+[32mINFO    [0m basicAPImenthod:apiMethod.py:64 ====================接口返回状态为200====================
+[32mINFO    [0m send_request:apiSend.py:177 ====================获取的接口请求结果为(200, '{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"http://omp.888ly.cn/Index.aspx"}}')====================
+[32mINFO    [0m check_result:resultCheck.py:23 ====================断言中的rStatus实际值为200,type为<class 'int'>====================
+[32mINFO    [0m check_result:resultCheck.py:24 ====================断言中的rText实际值为{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"http://omp.888ly.cn/Index.aspx"}},type为<class 'str'>====================
+[32mINFO    [0m check_result:resultCheck.py:26 ====================断言中的rStatus预期值为200,type为<class 'str'>====================
+[32mINFO    [0m check_result:resultCheck.py:28 ====================断言中的rText预期值为true,type为<class 'str'>====================

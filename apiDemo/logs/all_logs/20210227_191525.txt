@@ -1,0 +1,144 @@
+2021-02-27 19:15:39,814-handerYml-INFO-====================根据excel读取test_kfGroupAdd.yaml数据====================
+2021-02-27 19:15:39,835-handerYml-INFO-====================根据sheet读取test_kfGroupAdd.yaml数据====================
+2021-02-27 19:15:40,315-getExcel-INFO-====================根据给定的excel:test_suqq.xlsx和sheet:('客服分类管理',)读取数据====================
+2021-02-27 19:15:40,443-handerYml-INFO-====================根据excel读取test_kfcatAdd.yaml数据====================
+2021-02-27 19:15:40,459-handerYml-INFO-====================根据sheet读取test_kfcatAdd.yaml数据====================
+2021-02-27 19:15:40,476-getExcel-INFO-====================根据给定的excel:test_suqq.xlsx和sheet:('客服分类管理',)读取数据====================
+2021-02-27 19:15:40,712-send_request-INFO-====================obphost值为:http://obp.888ly.cn====================
+2021-02-27 19:15:40,739-send_request-INFO-====================omphost值为:http://omp.888ly.cn====================
+2021-02-27 19:15:40,742-send_request-INFO-====================osphost值为:http://osp.888ly.cn====================
+2021-02-27 19:15:40,756-handerYml-INFO-====================根据headers读取basic.yaml数据====================
+2021-02-27 19:15:40,760-send_request-INFO-====================headers默认值为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+2021-02-27 19:15:40,797-handerYml-INFO-====================根据headers读取test_kfGroupAdd.yaml数据====================
+2021-02-27 19:15:40,803-send_request-INFO-====================测试用例自己需要的headers值为:None====================
+2021-02-27 19:15:40,823-handerYml-INFO-====================根据attchUpload:mime_type读取test_kfGroupAdd.yaml数据====================
+2021-02-27 19:15:40,829-send_request-INFO-====================上传附件的请求类型为:multipart/form-data====================
+2021-02-27 19:15:40,850-handerYml-INFO-====================根据attchUpload:files读取test_kfGroupAdd.yaml数据====================
+2021-02-27 19:15:40,858-send_request-INFO-====================上传附件的文件内容为:{'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}====================
+2021-02-27 19:15:40,860-send_request-INFO-====================所属系统为:omp====================
+2021-02-27 19:15:40,861-send_request-INFO-====================请求方法为:post====================
+2021-02-27 19:15:40,862-send_request-INFO-====================请求subUrl为:/DataService/Login.asmx/SignIn====================
+2021-02-27 19:15:40,862-send_request-INFO-====================请求data为:{"account":"suqiangqiang","password":"abc123","checkCode":"8765","isAutoLogin":false,"isAccount":false,"validateCode":""}====================
+2021-02-27 19:15:40,863-send_request-INFO-====================请求是否需要cookies:N====================
+2021-02-27 19:15:40,864-send_request-INFO-====================请求是否需要保存cookies:N====================
+2021-02-27 19:15:40,864-send_request-INFO-====================请求需要执行的查询语句为:None====================
+2021-02-27 19:15:40,866-send_request-INFO-====================请求需要执行的更新语句为:None====================
+2021-02-27 19:15:40,867-send_request-INFO-====================请求需要执行的删除语句为:None====================
+2021-02-27 19:15:40,868-send_request-INFO-====================传递给caseYmldata的值为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+2021-02-27 19:15:40,869-send_request-INFO-====================执行获取基本信息操作完成====================
+2021-02-27 19:15:40,908-send_request-INFO-====================执行guid参数替换操作====================
+2021-02-27 19:15:40,965-send_request-INFO-====================执行http://omp.888ly.cn/DataService/Login.asmx/SignIn的post请求====================
+2021-02-27 19:15:40,967-send_request-INFO-====================请求的s为<requests.sessions.Session object at 0x0000000004C240B8>====================
+2021-02-27 19:15:40,967-send_request-INFO-====================data数据为:{"account":"suqiangqiang","password":"abc123","checkCode":"8765","isAutoLogin":false,"isAccount":false,"validateCode":""}====================
+2021-02-27 19:15:40,968-send_request-INFO-====================caseYmldata数据为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+2021-02-27 19:15:40,968-send_request-INFO-====================headers数据为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+2021-02-27 19:15:41,617-basicAPImenthod-INFO-====================接口返回状态为200====================
+2021-02-27 19:15:41,684-send_request-INFO-====================获取的接口请求结果为(200, '{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"http://omp.888ly.cn/Index.aspx"}}')====================
+2021-02-27 19:15:41,711-check_result-INFO-====================断言中的rStatus实际值为200,type为<class 'int'>====================
+2021-02-27 19:15:41,711-check_result-INFO-====================断言中的rText实际值为{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"http://omp.888ly.cn/Index.aspx"}},type为<class 'str'>====================
+2021-02-27 19:15:41,711-check_result-INFO-====================断言中的rStatus预期值为200,type为<class 'str'>====================
+2021-02-27 19:15:41,727-check_result-INFO-====================断言中的rText预期值为true,type为<class 'str'>====================
+2021-02-27 19:15:41,778-send_request-INFO-====================obphost值为:http://obp.888ly.cn====================
+2021-02-27 19:15:41,787-send_request-INFO-====================omphost值为:http://omp.888ly.cn====================
+2021-02-27 19:15:41,795-send_request-INFO-====================osphost值为:http://osp.888ly.cn====================
+2021-02-27 19:15:41,797-handerYml-INFO-====================根据headers读取basic.yaml数据====================
+2021-02-27 19:15:41,801-send_request-INFO-====================headers默认值为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+2021-02-27 19:15:41,805-handerYml-INFO-====================根据headers读取test_kfGroupAdd.yaml数据====================
+2021-02-27 19:15:41,813-send_request-INFO-====================测试用例自己需要的headers值为:None====================
+2021-02-27 19:15:41,819-handerYml-INFO-====================根据attchUpload:mime_type读取test_kfGroupAdd.yaml数据====================
+2021-02-27 19:15:41,828-send_request-INFO-====================上传附件的请求类型为:multipart/form-data====================
+2021-02-27 19:15:41,829-handerYml-INFO-====================根据attchUpload:files读取test_kfGroupAdd.yaml数据====================
+2021-02-27 19:15:41,845-send_request-INFO-====================上传附件的文件内容为:{'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}====================
+2021-02-27 19:15:41,846-send_request-INFO-====================所属系统为:omp====================
+2021-02-27 19:15:41,847-send_request-INFO-====================请求方法为:post====================
+2021-02-27 19:15:41,848-send_request-INFO-====================请求subUrl为:/DataService/Systems.asmx/Update====================
+2021-02-27 19:15:41,849-send_request-INFO-====================请求data为:{"parameter":{"Guid":"${guid}","Operation":"1","SysName":"test","Url":"22","Copyright":"33","Description":"","StatisticsScript":"","ActiveStatus":"1","Logo":""}}====================
+2021-02-27 19:15:41,850-send_request-INFO-====================请求是否需要cookies:N====================
+2021-02-27 19:15:41,851-send_request-INFO-====================请求是否需要保存cookies:N====================
+2021-02-27 19:15:41,852-send_request-INFO-====================请求需要执行的查询语句为:None====================
+2021-02-27 19:15:41,854-send_request-INFO-====================请求需要执行的更新语句为:None====================
+2021-02-27 19:15:41,856-send_request-INFO-====================请求需要执行的删除语句为:None====================
+2021-02-27 19:15:41,857-send_request-INFO-====================传递给caseYmldata的值为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+2021-02-27 19:15:41,858-send_request-INFO-====================执行获取基本信息操作完成====================
+2021-02-27 19:15:41,859-send_request-INFO-====================执行guid参数替换操作====================
+2021-02-27 19:15:41,860-paramSub-INFO-替换变量参数成功
+2021-02-27 19:15:41,897-send_request-INFO-====================执行http://omp.888ly.cn/DataService/Systems.asmx/Update的post请求====================
+2021-02-27 19:15:41,899-send_request-INFO-====================请求的s为<requests.sessions.Session object at 0x0000000004C240B8>====================
+2021-02-27 19:15:41,900-send_request-INFO-====================data数据为:{"parameter":{"Guid":"20d8e8f4-78ed-11eb-807c-005056c00008","Operation":"1","SysName":"test","Url":"22","Copyright":"33","Description":"","StatisticsScript":"","ActiveStatus":"1","Logo":""}}====================
+2021-02-27 19:15:41,901-send_request-INFO-====================caseYmldata数据为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+2021-02-27 19:15:41,902-send_request-INFO-====================headers数据为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+2021-02-27 19:15:42,034-basicAPImenthod-INFO-====================接口返回状态为200====================
+2021-02-27 19:15:42,034-send_request-INFO-====================获取的接口请求结果为(200, '{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"您已成功执行操作"}}')====================
+2021-02-27 19:15:42,035-check_result-INFO-====================断言中的rStatus实际值为200,type为<class 'int'>====================
+2021-02-27 19:15:42,036-check_result-INFO-====================断言中的rText实际值为{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"您已成功执行操作"}},type为<class 'str'>====================
+2021-02-27 19:15:42,036-check_result-INFO-====================断言中的rStatus预期值为200,type为<class 'str'>====================
+2021-02-27 19:15:42,038-check_result-INFO-====================断言中的rText预期值为true,type为<class 'str'>====================
+2021-02-27 19:15:42,100-send_request-INFO-====================obphost值为:http://obp.888ly.cn====================
+2021-02-27 19:15:42,102-send_request-INFO-====================omphost值为:http://omp.888ly.cn====================
+2021-02-27 19:15:42,104-send_request-INFO-====================osphost值为:http://osp.888ly.cn====================
+2021-02-27 19:15:42,105-handerYml-INFO-====================根据headers读取basic.yaml数据====================
+2021-02-27 19:15:42,106-send_request-INFO-====================headers默认值为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+2021-02-27 19:15:42,106-handerYml-INFO-====================根据headers读取test_kfcatAdd.yaml数据====================
+2021-02-27 19:15:42,106-send_request-INFO-====================测试用例自己需要的headers值为:None====================
+2021-02-27 19:15:42,106-handerYml-INFO-====================根据attchUpload:mime_type读取test_kfcatAdd.yaml数据====================
+2021-02-27 19:15:42,106-send_request-INFO-====================上传附件的请求类型为:multipart/form-data====================
+2021-02-27 19:15:42,106-handerYml-INFO-====================根据attchUpload:files读取test_kfcatAdd.yaml数据====================
+2021-02-27 19:15:42,121-send_request-INFO-====================上传附件的文件内容为:{'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}====================
+2021-02-27 19:15:42,121-send_request-INFO-====================所属系统为:omp====================
+2021-02-27 19:15:42,121-send_request-INFO-====================请求方法为:post====================
+2021-02-27 19:15:42,121-send_request-INFO-====================请求subUrl为:/DataService/Login.asmx/SignIn====================
+2021-02-27 19:15:42,121-send_request-INFO-====================请求data为:{"account":"suqiangqiang","password":"abc123","checkCode":"8765","isAutoLogin":false,"isAccount":false,"validateCode":""}====================
+2021-02-27 19:15:42,121-send_request-INFO-====================请求是否需要cookies:N====================
+2021-02-27 19:15:42,121-send_request-INFO-====================请求是否需要保存cookies:N====================
+2021-02-27 19:15:42,121-send_request-INFO-====================请求需要执行的查询语句为:None====================
+2021-02-27 19:15:42,121-send_request-INFO-====================请求需要执行的更新语句为:None====================
+2021-02-27 19:15:42,121-send_request-INFO-====================请求需要执行的删除语句为:None====================
+2021-02-27 19:15:42,152-send_request-INFO-====================传递给caseYmldata的值为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+2021-02-27 19:15:42,152-send_request-INFO-====================执行获取基本信息操作完成====================
+2021-02-27 19:15:42,152-send_request-INFO-====================执行guid参数替换操作====================
+2021-02-27 19:15:42,152-send_request-INFO-====================执行http://omp.888ly.cn/DataService/Login.asmx/SignIn的post请求====================
+2021-02-27 19:15:42,168-send_request-INFO-====================请求的s为<requests.sessions.Session object at 0x0000000004BFA5F8>====================
+2021-02-27 19:15:42,168-send_request-INFO-====================data数据为:{"account":"suqiangqiang","password":"abc123","checkCode":"8765","isAutoLogin":false,"isAccount":false,"validateCode":""}====================
+2021-02-27 19:15:42,168-send_request-INFO-====================caseYmldata数据为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+2021-02-27 19:15:42,168-send_request-INFO-====================headers数据为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+2021-02-27 19:15:42,511-basicAPImenthod-INFO-====================接口返回状态为200====================
+2021-02-27 19:15:42,511-send_request-INFO-====================获取的接口请求结果为(200, '{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"http://omp.888ly.cn/Index.aspx"}}')====================
+2021-02-27 19:15:42,511-check_result-INFO-====================断言中的rStatus实际值为200,type为<class 'int'>====================
+2021-02-27 19:15:42,511-check_result-INFO-====================断言中的rText实际值为{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"http://omp.888ly.cn/Index.aspx"}},type为<class 'str'>====================
+2021-02-27 19:15:42,511-check_result-INFO-====================断言中的rStatus预期值为200,type为<class 'str'>====================
+2021-02-27 19:15:42,511-check_result-INFO-====================断言中的rText预期值为true,type为<class 'str'>====================
+2021-02-27 19:15:42,542-send_request-INFO-====================obphost值为:http://obp.888ly.cn====================
+2021-02-27 19:15:42,542-send_request-INFO-====================omphost值为:http://omp.888ly.cn====================
+2021-02-27 19:15:42,542-send_request-INFO-====================osphost值为:http://osp.888ly.cn====================
+2021-02-27 19:15:42,542-handerYml-INFO-====================根据headers读取basic.yaml数据====================
+2021-02-27 19:15:42,558-send_request-INFO-====================headers默认值为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+2021-02-27 19:15:42,558-handerYml-INFO-====================根据headers读取test_kfcatAdd.yaml数据====================
+2021-02-27 19:15:42,558-send_request-INFO-====================测试用例自己需要的headers值为:None====================
+2021-02-27 19:15:42,558-handerYml-INFO-====================根据attchUpload:mime_type读取test_kfcatAdd.yaml数据====================
+2021-02-27 19:15:42,580-send_request-INFO-====================上传附件的请求类型为:multipart/form-data====================
+2021-02-27 19:15:42,582-handerYml-INFO-====================根据attchUpload:files读取test_kfcatAdd.yaml数据====================
+2021-02-27 19:15:42,590-send_request-INFO-====================上传附件的文件内容为:{'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}====================
+2021-02-27 19:15:42,598-send_request-INFO-====================所属系统为:omp====================
+2021-02-27 19:15:42,599-send_request-INFO-====================请求方法为:post====================
+2021-02-27 19:15:42,600-send_request-INFO-====================请求subUrl为:/DataService/Systems.asmx/Update====================
+2021-02-27 19:15:42,601-send_request-INFO-====================请求data为:{"parameter":{"Guid":"${guid}","Operation":"1","SysName":"test","Url":"22","Copyright":"33","Description":"","StatisticsScript":"","ActiveStatus":"1","Logo":""}}====================
+2021-02-27 19:15:42,603-send_request-INFO-====================请求是否需要cookies:N====================
+2021-02-27 19:15:42,605-send_request-INFO-====================请求是否需要保存cookies:N====================
+2021-02-27 19:15:42,606-send_request-INFO-====================请求需要执行的查询语句为:None====================
+2021-02-27 19:15:42,607-send_request-INFO-====================请求需要执行的更新语句为:None====================
+2021-02-27 19:15:42,608-send_request-INFO-====================请求需要执行的删除语句为:None====================
+2021-02-27 19:15:42,612-send_request-INFO-====================传递给caseYmldata的值为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+2021-02-27 19:15:42,613-send_request-INFO-====================执行获取基本信息操作完成====================
+2021-02-27 19:15:42,617-send_request-INFO-====================执行guid参数替换操作====================
+2021-02-27 19:15:42,619-paramSub-INFO-替换变量参数成功
+2021-02-27 19:15:42,621-send_request-INFO-====================执行http://omp.888ly.cn/DataService/Systems.asmx/Update的post请求====================
+2021-02-27 19:15:42,622-send_request-INFO-====================请求的s为<requests.sessions.Session object at 0x0000000004BFA5F8>====================
+2021-02-27 19:15:42,628-send_request-INFO-====================data数据为:{"parameter":{"Guid":"214c935a-78ed-11eb-8909-005056c00008","Operation":"1","SysName":"test","Url":"22","Copyright":"33","Description":"","StatisticsScript":"","ActiveStatus":"1","Logo":""}}====================
+2021-02-27 19:15:42,629-send_request-INFO-====================caseYmldata数据为:{'nCookies': 'N', 'sCookies': 'N', 'mime_type': 'multipart/form-data', 'files': {'origImg': "(None,'1')", 'picType': "(None,'1')", 'userfile1': "('33.png',open(os.path.join(dirs.ATT_DIR,'33.png'),'rb'),'image/png')"}}====================
+2021-02-27 19:15:42,632-send_request-INFO-====================headers数据为:{'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json; charset=UTF-8'}====================
+2021-02-27 19:15:42,777-basicAPImenthod-INFO-====================接口返回状态为200====================
+2021-02-27 19:15:42,778-send_request-INFO-====================获取的接口请求结果为(200, '{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"您已成功执行操作"}}')====================
+2021-02-27 19:15:42,779-check_result-INFO-====================断言中的rStatus实际值为200,type为<class 'int'>====================
+2021-02-27 19:15:42,780-check_result-INFO-====================断言中的rText实际值为{"d":{"__type":"Octopus.BLL.returnInfos","status":true,"msg":"您已成功执行操作"}},type为<class 'str'>====================
+2021-02-27 19:15:42,783-check_result-INFO-====================断言中的rStatus预期值为200,type为<class 'str'>====================
+2021-02-27 19:15:42,784-check_result-INFO-====================断言中的rText预期值为true,type为<class 'str'>====================
